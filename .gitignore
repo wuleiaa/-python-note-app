@@ -1,0 +1,24 @@
+# Python虚拟环境（如果用了venv/conda，必加）
+venv/
+env/
+.venv/
+__pycache__/  # Python编译后的缓存文件（每个文件夹都有，必须排除）
+*.pyc         # 编译后的.pyc文件
+
+# 操作系统缓存
+.DS_Store
+Thumbs.db
+
+# 编辑器配置（如果用PyCharm/VSC）
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志/临时文件
+*.log
+tmp/
+data.db-journal  # SQLite的日志文件（如果有）
+
+# 环境变量/密钥（别上传敏感信息）
+.env
